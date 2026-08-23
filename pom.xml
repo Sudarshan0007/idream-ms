@@ -26,9 +26,9 @@
 	
 <distributionManagement>
 	<repository>
-		<id>idream-ms</id>
-		<name>idream-ms</name>
-		<url>http://3.110.77.21:8081/repository/idream-ms/</url>
+		<id>dev-repo-cpun</id>
+		<name>dev-repo-cpun</name>
+		<url>http://13.232.51.7:8081/repository/dev-repo-cpun/</url>
 	</repository>
 </distributionManagement>
 
