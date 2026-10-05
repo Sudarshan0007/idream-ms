@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('gitclone') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Sudarshan0007/idream-ms.git'
+            }
+        }
+         stage('mvn-build') {
+            steps {
+                sh "mvn clean package"
+            }
+        }
+    }
+}
